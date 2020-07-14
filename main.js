@@ -12,4 +12,4 @@ testNum(55)
 })
 .catch(function(error) {
   console.log(error);
-})
+});
