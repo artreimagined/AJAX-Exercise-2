@@ -1,8 +1,8 @@
 const testNum = (num) => new Promise ((resolve, reject) => {
   if (num > 50) {
-    resolve('greater than fifty');
+    resolve(num +' is greater than fifty');
   } else {
-    reject('less than fifty');
+    reject(num +' is less than fifty');
   }
 });
 
